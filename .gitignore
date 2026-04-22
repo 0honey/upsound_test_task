@@ -1,0 +1,19 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# JSON files (если нужно игнорировать все .json)
+*.json
+
+# Если хотите игнорировать конкретные JSON файлы
+# package-lock.json
+# config.json
+# data.json
+
+# Другие полезные исключения
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
