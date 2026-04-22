@@ -3,17 +3,32 @@
 .env.local
 .env.*.local
 
-# JSON files (если нужно игнорировать все .json)
+# JSON files
 *.json
 
-# Если хотите игнорировать конкретные JSON файлы
-# package-lock.json
-# config.json
-# data.json
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 
-# Другие полезные исключения
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Other
 node_modules/
 dist/
 build/
 .DS_Store
 *.log
+*.tmp
